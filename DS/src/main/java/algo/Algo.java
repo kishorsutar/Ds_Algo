@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+package algo;
 
 public class Algo {
+
+    public static void main(String[] args) {
+
+    }
 }
