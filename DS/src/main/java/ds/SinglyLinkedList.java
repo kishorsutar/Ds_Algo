@@ -14,7 +14,7 @@ public class SinglyLinkedList {
     public void insertNode(int nodeData) {
 
         SinglyLinkedListNode node = new SinglyLinkedListNode(nodeData);
-        if(head == null) {
+        if (head == null) {
             head = node;
         } else {
             this.tail.next = node;
@@ -25,7 +25,7 @@ public class SinglyLinkedList {
 
     void printSinglyLinkedList(SinglyLinkedListNode node) {
 
-        while (node!=null) {
+        while (node != null) {
             System.out.println(node.data);
             node = node.next;
         }

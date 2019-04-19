@@ -37,8 +37,20 @@ public class ArraysEx {
 }));*/
 
 
-        System.out.println(findKthLargest(new int[]{3, 2, 1, 5, 6, 4}, 2));
+//        System.out.println(findKthLargest(new int[]{3, 2, 1, 5, 6, 4}, 2));
+      /*  System.out.println(solve(new ArrayList<Integer>() {
+            {
+                add(7);
+                add(3);
+                add(16);
+                add(10);
+                add(10);
+            }
+        }));*/
 
+//      moveZeroes(new int[]{1,0,3,0,12});
+
+        System.out.println(trap(new int[] {0,1,0,2,1,0,1,3,2,1,2,1}));
     }
 
     static ArrayList<Integer> wave(ArrayList<Integer> A) {
@@ -139,6 +151,29 @@ public class ArraysEx {
 
         return -1;
 
+    }
+
+
+    static int solve(ArrayList<Integer> A) {
+        Collections.sort(A);
+
+        int size = A.size();
+
+        for(int i = 0; i < size-1; i++) {
+            if(A.get(i) == A.get(i+1)) {
+                continue;
+            }
+
+            if(A.get(i) == (size - i - 1)) {
+                return 1;
+            }
+        }
+
+        if(A.get(size - 1) == 0) {
+            return 1;
+        }
+
+        return -1;
     }
 
     /*    static int[] plusOne(int[] digits) {
@@ -279,4 +314,99 @@ public class ArraysEx {
     }
 
 
+    static int maximumGap(final List<Integer> a) {
+        if (a.size() == 0) return -1;
+        if (a.size() == 1) return 0;
+        int maxDiff;
+        int i, j;
+        int n = a.size();
+        int RMax[] = new int[n];
+        int LMin[] = new int[n];
+
+        /* Construct LMin[] such that LMin[i] stores the minimum value
+           from (arr[0], arr[1], ... arr[i]) */
+        LMin[0] = a.get(0);
+        for (i = 1; i < n; ++i)
+            LMin[i] = Math.min(a.get(i), LMin[i - 1]);
+
+        /* Construct RMax[] such that RMax[j] stores the maximum value
+           from (arr[j], arr[j+1], ..arr[n-1]) */
+        RMax[n - 1] = a.get(n - 1);
+        for (j = n - 2; j >= 0; --j)
+            RMax[j] = Math.max(a.get(j), RMax[j + 1]);
+
+        /* Traverse both arrays from left to right to find optimum j - i
+           This process is similar to merge() of MergeSort */
+        i = 0;
+        j = 0;
+        maxDiff = -1;
+        while (j < n && i < n) {
+
+            if (LMin[i] < RMax[j]) {
+                maxDiff = Math.max(maxDiff, j - i);
+                j = j + 1;
+            } else
+                i = i + 1;
+        }
+
+
+        System.out.println(LMin[i-1] + " :" + RMax[j]);
+        if(maxDiff == -1 && i != a.size() && LMin[i-1] == RMax[j]) return a.size()-1;
+
+        return maxDiff;
+    }
+
+    static void moveZeroes(int[] nums) {
+        // assuming non negative numbers and all elements are greater than 0.
+        // if nums has 1 element then return or nums null then return
+
+        int[] array = new int[nums.length+1];
+        int j = 0;
+        for(int i = 0; i < nums.length; i++) {
+            if(nums[i] != 0) {
+                array[j] = nums[i];
+                j++;
+            }
+        }
+
+        nums = Arrays.copyOf(array, array.length);
+        for (int w: nums
+             ) {
+            System.out.println(w);
+        }
+
+    }
+
+
+    static int trap(int[] height) {
+        if(height.length == 0) return 0;
+        int n = height.length;
+        int result = 0;
+        int left_max = 0, right_max = 0;
+        int lo = 0, hi = n - 1;
+
+        while (lo <= hi) {
+            if(height[lo] < height[hi]) {
+                if(height[lo] > left_max){
+                    left_max = height[lo];
+                } else {
+                    result += left_max - height[lo];
+                    lo++;
+                }
+            } else {
+                if(height[hi] > right_max) {
+                    right_max = height[hi];
+                } else {
+                    result += right_max - height[hi];
+                }
+                hi--;
+            }
+        }
+
+//        HashMap<Integer, Integer> testMap = new HashMap<>();
+//        testMap.
+
+        return result;
+
+    }
 }

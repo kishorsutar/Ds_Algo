@@ -1,6 +1,7 @@
 package ds;
 
-import java.math.BigInteger;
+import java.io.IOException;
+import java.io.Reader;
 import java.util.*;
 
 public class Strings {
@@ -18,7 +19,7 @@ public class Strings {
 }));*/
 
 
-        int[] arr = new int[] {0,1,2,3,4,5,6,7,8,9};
+ /*       int[] arr = new int[] {0,1,2,3,4,5,6,7,8,9};
         int[] arra_old = new int[10];
         System.arraycopy(arr, 0, arra_old, 0, arr.length-1);
 
@@ -29,7 +30,9 @@ public class Strings {
 
         System.arraycopy(arra_old, 0, arr, 0, arra_old.length-1);
         System.out.println(arr[4]);
-        System.out.println(arr.length);
+        System.out.println(arr.length);*/
+
+        System.out.println(compareVersion("3346237295", "898195413.2.6243"));
 
     }
 
@@ -75,7 +78,7 @@ public class Strings {
         return count <= 1;*/
 
 
-        Set< Character > set = new HashSet< >();
+        Set<Character> set = new HashSet<>();
         for (int i = 0; i < s.length(); i++) {
             if (!set.add(s.charAt(i)))
                 set.remove(s.charAt(i));
@@ -86,8 +89,8 @@ public class Strings {
     }
 
     static boolean isOneEditDistance(String s, String t) {
-        if(s.length() - t.length() > 1) return false;
-        if(s.length() == 0 && t.length() == 0) return false;
+        if (s.length() - t.length() > 1) return false;
+        if (s.length() == 0 && t.length() == 0) return false;
 
 
         HashSet<Character> set = new HashSet<Character>();
@@ -97,7 +100,7 @@ public class Strings {
 
         for (int i = 0; i < t.length(); i++) {
             char c = t.charAt(i);
-            if(set.contains(c) ) {
+            if (set.contains(c)) {
                 set.remove(c);
             } else {
                 set.add(c);
@@ -167,14 +170,14 @@ public class Strings {
     }
 
 
-    static void removeDuplicates (int[] nums) {
+    static void removeDuplicates(int[] nums) {
         TreeSet<Integer> set = new TreeSet<>();
 
-        for (int s: nums
-             ) {
+        for (int s : nums
+        ) {
             set.add(s);
         }
-System.out.println(set);
+        System.out.println(set);
 //        set.isEmpty();
 //        Arrays.sort(nums);
 //        List<Integer> lit = Arrays.asList(nums);
@@ -185,10 +188,10 @@ System.out.println(set);
         // string into char array
 
         Stack<Character> stack = new Stack<Character>();
-        if(s.length() == 1) return false;
-        for(int i = 0; i < s.length(); i++) {
+        if (s.length() == 1) return false;
+        for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            if(c == '(' || c == '[' || c == '{') {
+            if (c == '(' || c == '[' || c == '{') {
                 stack.push(c);
             } else if (!stack.isEmpty() && stack.peek() == '(' && c == ')') {
                 stack.pop();
@@ -199,7 +202,7 @@ System.out.println(set);
             } else return false;
         }
 
-        return  stack.isEmpty();
+        return stack.isEmpty();
 
     }
 
@@ -208,7 +211,7 @@ System.out.println(set);
 
         // Initialize result
         String result = "";
-
+/*
         // Initialize digit sum
         int s = 0;
 
@@ -232,9 +235,94 @@ System.out.println(set);
 
             // Move to next digits
             i--; j--;
+        }*/
+
+        char[] buf = new char[4];
+
+        for (char aBuf : buf) {
+            System.out.println(aBuf);
         }
 
+        System.out.println(a.charAt(0) - '0');
+
         return result;
+
+
     }
+
+    static int compareVersion(String a, String b) {
+
+
+        String[] aArray = a.split("\\.");
+        String[] bArray = b.split("\\.");
+        int len = aArray.length > bArray.length ? aArray.length : bArray.length;
+
+
+        int max = 0;
+
+        if (len > aArray.length) {
+            aArray = Arrays.copyOf(aArray, len);
+
+        }
+        if (len > bArray.length) {
+            bArray = Arrays.copyOf(bArray, len);
+
+        }
+        for (int i = len - 1; i >= 0; i--) {
+
+            if (aArray[i] == null) {
+                aArray[i] = "0";
+            }
+            if (bArray[i] == null) {
+                bArray[i] = "0";
+            }
+
+            if (Float.valueOf(aArray[i]) > Float.valueOf(bArray[i])) {
+                max = 1;
+            } else if (Float.valueOf(aArray[i]) < Float.valueOf(bArray[i])) {
+                max = -1;
+            }
+
+        }
+
+        return max;
+    }
+
+
+    class Solution extends Reader {
+
+        @Override
+        public void close() {
+
+        }
+
+        @Override
+        public int read(char[] buf, int off, int len) throws IOException {
+
+            int offset = 0;
+            char[] buf4 = new char[4];
+            System.out.println("init: " + buf4);
+            while (true) {
+                int count = read(buf4);
+                System.out.println("count: " + count);
+                if (count == 0) {
+                    break;
+                }
+                for (int i = 0; i < count && offset < len; i++) {
+                    System.out.println("offset: " + offset);
+                    System.out.println("buf4[i]: " + buf4[i]);
+                    buf[offset] = buf4[i];
+                    System.out.println("buf[offset]: " + buf[offset]);
+                    offset++;
+                }
+            }
+
+            System.out.println("result: " + offset);
+            return offset;
+
+
+        }
+    }
+
 
 }
