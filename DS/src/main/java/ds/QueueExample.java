@@ -17,11 +17,12 @@ public class QueueExample {
         pQueue.clear();
 
         ArrayList<Integer> t = new ArrayList<>();
+
 //      t.a
     }
 
     class BinaryTreeNode {
-        public BinaryTreeNode getLeft() {
+        BinaryTreeNode getLeft() {
             return left;
         }
 
@@ -29,7 +30,7 @@ public class QueueExample {
             this.left = left;
         }
 
-        public BinaryTreeNode getRight() {
+        BinaryTreeNode getRight() {
             return right;
         }
 
