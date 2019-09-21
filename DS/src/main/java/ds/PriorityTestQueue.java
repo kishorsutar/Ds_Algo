@@ -26,7 +26,6 @@ public class PriorityTestQueue {
 				q.poll();
 		}
 
-
 		return q.peek();
 
 	}

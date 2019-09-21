@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ds_algo.iml" filepath="$PROJECT_DIR$/Ds_algo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/practice.iml" filepath="$PROJECT_DIR$/.idea/modules/practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/practice.iml" filepath="$PROJECT_DIR$/.idea/modules/practice.iml" group="practice" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/practice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/practice_main.iml" group="practice" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/practice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/practice_test.iml" group="practice" />
     </modules>

@@ -67,7 +67,7 @@ class TreeNode<T> {
 			return 1;
 		}
 
-		for(TreeNode<Integer> child : root.children) {
+		for(TreeNode<T> child : root.children) {
 			height = Math.max(height, getTreeHeight(child));
 		}
 
@@ -101,6 +101,6 @@ class TreeNode<T> {
 
 System.out.println();
     System.out.print("\nHeigth: \n");
-    System.out.println(root.getHeight(root));
+//    System.out.println(root.getHeight(root));
     }
 }
