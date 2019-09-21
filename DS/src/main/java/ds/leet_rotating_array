@@ -1,0 +1,73 @@
+class Solution {
+	public static void main(String[] args) {
+		System.out.println(gcd(78, 66));
+	}
+
+	public ListNode swapNode(ListNode head) {
+		ListNode firstNode = new ListNode(0);
+		firstNode.next = head;
+		ListNode ite = firstNode;
+		ListNode temp;
+		while(ite.next != null && ite.next.next != null) {
+			temp = ite.next;
+			ite.next = temp.next;
+			temp.next = it
+		}
+	}
+
+	static int gcd(int a, int b) {
+		// find gcd of a and b
+
+		// according to euclides algorithm
+		// gcd(a,b) = gcd(b, a%b);
+
+		while (b!=0) {
+			a = gcd(a, a%b);
+		}
+
+		return a;
+	}
+}
+
+public class Solution {
+public ArrayList merge(ArrayList intervals) {
+ArrayList results = new ArrayList();
+
+    Collections.sort(intervals, new Comparator<Interval>() {
+        @Override
+        public int compare(Interval o1, Interval o2) {
+            return o1.start-o2.start;
+        }
+    });
+
+    if(intervals.isEmpty()) return results;
+
+    Interval current = intervals.get(0);
+
+    Stack<Integer> stack = new Stack<>();
+
+    stack.push(current.start);
+    stack.push(current.end);
+    for(int i=1;i<intervals.size();i++){
+        Interval z = intervals.get(i);
+        
+                    if(stack.peek()<z.start){
+            stack.push(z.start);
+            stack.push(z.end);
+        }
+        else if(stack.peek()<z.end){
+            stack.pop();
+            stack.push(z.end);
+            }
+    }
+    while (!stack.isEmpty()){
+        int a = stack.pop();
+        int b = stack.pop();
+        results.add(new Interval(b,a));
+    }
+    Collections.reverse(results);
+    return results;
+
+}
+
+}
