@@ -11,7 +11,7 @@ public class DynamicArray<T> implements Iterable<T> {
     }
 
     public DynamicArray(int capacity) {
-        if(capacity <=0) throw new IllegalArgumentException("Illegal Capacity: " +    capacity );
+        if (capacity <= 0) throw new IllegalArgumentException("Illegal Capacity: " + capacity);
 
         this.capacity = capacity;
         array = (T[]) new Object[capacity];
@@ -48,11 +48,11 @@ public class DynamicArray<T> implements Iterable<T> {
 
     // O(n)
     public void add(T elem) {
-        if(len + 1 >= capacity) {
-            if(capacity == 0) capacity = 1;
+        if (len + 1 >= capacity) {
+            if (capacity == 0) capacity = 1;
             else capacity *= 2; // double the size
             T[] newArray = (T[]) new Object[capacity];
-            for(int i = 0; i < len; i++) {
+            for (int i = 0; i < len; i++) {
                 newArray[i] = array[i];
             }
             array = newArray;
@@ -63,11 +63,11 @@ public class DynamicArray<T> implements Iterable<T> {
 
     // O(n)
     public T removeAt(int index) {
-        if(index >= len || index < 0) throw new IndexOutOfBoundsException();
+        if (index >= len || index < 0) throw new IndexOutOfBoundsException();
         T data = array[index];
         T[] newArray = (T[]) new Object[len - 1];
-        for(int i = 0, j = 0; i < len; i++, j++ ) {
-            if(index == i) {
+        for (int i = 0, j = 0; i < len; i++, j++) {
+            if (index == i) {
                 j--;
             } else {
                 newArray[j] = array[i];
@@ -89,8 +89,8 @@ public class DynamicArray<T> implements Iterable<T> {
 
     // O(n)
     public int indexOf(T obj) {
-        for(int i = 0; i < len; i++) {
-            if(obj.equals(array[i])) return i;
+        for (int i = 0; i < len; i++) {
+            if (obj.equals(array[i])) return i;
         }
         return -1;
     }
@@ -124,14 +124,15 @@ public class DynamicArray<T> implements Iterable<T> {
 
     @Override
     public String toString() {
-        if(len == 0) return "[]";
-     else {
+        if (len == 0) return "[]";
+        else {
             StringBuilder sb = new StringBuilder(len).append("[");
-            for (int i = 0; i < len -1; i++) {
+            for (int i = 0; i < len - 1; i++) {
                 sb.append(array[i]).append(", ");
             }
             return sb.append(array[len - 1]).append("]").toString();
         }
+
     }
 }
 
