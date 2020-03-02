@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e147e34-8601-4525-839d-2fc475311df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DS/src/main/java/algo/MaximumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS/src/main/java/algo/RatAndMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS/src/main/java/ds/ArrayOnHackerRank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS/out/production/classes/algo/Algo.class" beforeDir="false" afterPath="$PROJECT_DIR$/DS/out/production/classes/algo/Algo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DS/src/main/java/algo/Algo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/algo/Algo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DS/src/main/java/ds/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/ds/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/DS/.gradle/" />
@@ -52,53 +54,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/DynamicArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-              <folding>
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alogs_prac/Sorting.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#1225#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/Algo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/CountOnesInNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/MaximumSubArray.java">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/RatAndMaze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="286">
+              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/ArrayOnHackerRank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Strings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="189" column="8" selection-start-line="189" selection-start-column="8" selection-end-line="189" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5177#5188#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1235">
+              <caret line="2424" column="18" selection-start-line="2424" selection-start-column="18" selection-end-line="2424" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.xml/com/sun/org/apache/xerces/internal/xpointer/ElementSchemePointer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="195" column="19" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/DS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -121,6 +139,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Stac</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/DS/src/main/java/ds</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -137,7 +163,6 @@
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/QuickSort.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/Strings.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/TrieImplement.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/Graphs.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/QueueExample.java" />
@@ -149,8 +174,11 @@
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/CountOnesInNumber.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/Mathamatics.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/DynamicArray.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/algo/Algo.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/MaximumSubArray.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/algo/Algo.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/algo/RatAndMaze.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/ds/ArrayOnHackerRank.java" />
       </list>
     </option>
   </component>
@@ -161,10 +189,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-58" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,7 +246,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Algo">
+  <component name="RunManager" selected="Application.ArraysEx">
     <configuration name="Algo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algo.Algo" />
       <module name="practice_main" />
@@ -303,12 +330,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ds.Strings" />
+    <configuration name="RatAndMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.RatAndMaze" />
       <module name="practice_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ds.*" />
+          <option name="PATTERN" value="algo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,18 +345,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ArraysEx" />
-      <item itemvalue="Application.Strings" />
       <item itemvalue="Application.DynamicProgramming" />
       <item itemvalue="Application.CountOnesInNumber" />
       <item itemvalue="Application.Algo" />
+      <item itemvalue="Application.RatAndMaze" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraysEx" />
+        <item itemvalue="Application.RatAndMaze" />
         <item itemvalue="Application.Algo" />
         <item itemvalue="Application.CountOnesInNumber" />
         <item itemvalue="Application.DynamicProgramming" />
-        <item itemvalue="Application.ArraysEx" />
-        <item itemvalue="Application.Strings" />
       </list>
     </recent_temporary>
   </component>
@@ -356,10 +383,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-58" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49946523" visible="true" weight="0.21033014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49946523" visible="true" weight="0.24420024" />
       <window_info id="Structure" order="1" sideWeight="0.5005348" side_tool="true" weight="0.23565324" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -367,13 +394,13 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5005348" side_tool="true" weight="0.23565324" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3284974" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33903742" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28770053" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28704664" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32959184" />
@@ -391,7 +418,7 @@
       <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49946523" visible="true" weight="0.23565324" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49946523" visible="true" weight="0.24420024" />
       <window_info id="Structure" order="1" sideWeight="0.5005348" side_tool="true" weight="0.23565324" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -399,13 +426,13 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5005348" side_tool="true" weight="0.23565324" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33903742" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28770053" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28704664" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32959184" />
@@ -480,13 +507,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java</url>
-          <line>117</line>
+          <line>118</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java</url>
-          <line>145</line>
+          <line>146</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -510,7 +537,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java</url>
-          <line>197</line>
+          <line>198</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
@@ -528,27 +555,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java</url>
-          <line>255</line>
+          <line>256</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java</url>
-          <line>276</line>
+          <line>277</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java</url>
-          <line>352</line>
+          <line>353</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java</url>
-          <line>161</line>
+          <line>162</line>
           <properties />
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DS/src/main/java/algo/RatAndMaze.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DS/src/main/java/algo/RatAndMaze.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -607,49 +646,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/hello.java" />
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/StringContainsAllLetters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="112" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="203" column="17" selection-start-line="203" selection-start-column="17" selection-end-line="203" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractSequentialList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="1870" column="18" selection-start-line="1870" selection-start-column="18" selection-end-line="1870" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/math/UniquePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9120">
@@ -810,23 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="270" selection-start-line="270" selection-end-line="270" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Strings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4420">
-          <caret line="262" column="34" selection-start-line="262" selection-start-column="34" selection-end-line="262" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -838,13 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/DS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -923,7 +895,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/DynamicArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
+        <state relative-caret-position="572">
           <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
           <folding>
             <element signature="e#226#227#0" expanded="true" />
@@ -932,19 +904,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/jdk.compiler/com/sun/tools/javac/util/ArrayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Alogs_prac/Sorting.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/Algo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1225#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -955,17 +921,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/Algo.java">
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/MaximumSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="264">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/MaximumSubArray.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/jdk.compiler/com/sun/tools/javac/util/ArrayUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="242">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/DS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.xml/com/sun/org/apache/xerces/internal/xpointer/ElementSchemePointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="195" column="19" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="2424" column="18" selection-start-line="2424" selection-start-column="18" selection-end-line="2424" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home!/jdk.internal.vm.compiler/org/graalvm/compiler/debug/GraalError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/jdk.internal.vm.compiler/org.graalvm.compiler.hotspot/src/org/graalvm/compiler/hotspot/replacements/arraycopy/ArrayCopySnippets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10296">
+          <caret line="556" column="68" selection-start-line="556" selection-start-column="68" selection-end-line="556" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="528" column="30" selection-start-line="528" selection-start-column="30" selection-end-line="528" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/ArrayOnHackerRank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="189" column="8" selection-start-line="189" selection-start-column="8" selection-end-line="189" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5177#5188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/RatAndMaze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
