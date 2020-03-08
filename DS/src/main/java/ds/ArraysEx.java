@@ -51,7 +51,9 @@ public class ArraysEx {
 //      moveZeroes(new int[]{1,0,3,0,12});
 int[] t = new int[] {9, 1, 4, 7, 6, 5};
 //        System.out.println(trap(new int[] {0,1,0,2,1,0,1,3,2,1,2,1}));
-        new ArrayOnHackerRank().rotateLeft(t, 3);
+//        new ArrayOnHackerRank().rotateLeft(t, 3);
+        new ArrayOnHackerRank().arrayList();
+
     }
 
     static ArrayList<Integer> wave(ArrayList<Integer> A) {

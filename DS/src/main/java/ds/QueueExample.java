@@ -1,9 +1,6 @@
 package ds;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 public class QueueExample {
 
@@ -17,6 +14,8 @@ public class QueueExample {
         pQueue.clear();
 
         ArrayList<Integer> t = new ArrayList<>();
+
+        Queue<Integer> intQueue = new PriorityQueue<>();
 
 //      t.a
     }
@@ -70,6 +69,5 @@ public class QueueExample {
 
         queue.clear();
     }
-
 
 }
