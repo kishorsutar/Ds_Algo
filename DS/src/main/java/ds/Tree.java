@@ -1,4 +1,4 @@
-
+package ds;
 // class TreeNode<E> {
 // 	int height;
 // 	TreeNode<E> parent;
@@ -40,12 +40,16 @@
 //     }
 
 // }
+
 import java.util.*;
 
 class TreeNode<T> {
 	private List<TreeNode<T>> children = new ArrayList<TreeNode<T>>();
     private T data = null;
-	
+
+    TreeNode<T> left = null;
+    TreeNode<T> right = null;
+
 	public TreeNode(T data){
         this.data = data;
     }       
@@ -72,6 +76,24 @@ class TreeNode<T> {
 		}
 
 		return height + 1;
+	}
+
+	public static int height(TreeNode root) {
+		// Write your code here.
+
+		if(root==null) {
+			return -1;
+		}
+		int leftHeight = 0;
+		int rightHeight = 0;
+		if(root.left!=null) {
+			leftHeight = 1 + height(root.left);
+		}
+		if(root.right!=null) {
+			rightHeight = 1 + height(root.right);
+		}
+
+		return leftHeight > rightHeight ? leftHeight : rightHeight;
 	}
 
 	 public static void main(String[] args) {
@@ -101,6 +123,6 @@ class TreeNode<T> {
 
 System.out.println();
     System.out.print("\nHeigth: \n");
-//    System.out.println(root.getHeight(root));
+    System.out.println(height(root));
     }
 }

@@ -29,4 +29,24 @@ public class PriorityTestQueue {
 		return q.peek();
 
 	}
+
+
+	private static boolean isMinHeap(int[] heap) {
+		int root = heap[0];
+		int n = heap.length;
+
+		for(int i = 1; i < n; i++) {
+			int left = 2 * i + 1;
+			int right = 2 * i + 2;
+
+			if(left < n && heap[left] < root) {
+				return false;
+			} else if (right < n && heap[right] < root) {
+				return false;
+			}
+			root = heap[i];
+		}
+
+		return true;
+	}
 }
