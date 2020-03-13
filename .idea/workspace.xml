@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e147e34-8601-4525-839d-2fc475311df1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DS/src/main/java/ds/BinaryHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS/src/main/java/ds/TreeTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS/out/production/classes/ds/PriorityTestQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/DS/out/production/classes/ds/PriorityTestQueue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DS/src/main/java/ds/PriorityTestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/ds/PriorityTestQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DS/src/main/java/ds/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/ds/Tree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/DS/.gradle/" />
@@ -52,15 +54,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/QueueExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1061">
-              <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/HashProblems.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1261">
@@ -88,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
+            <state relative-caret-position="-721">
               <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
               <folding>
                 <element signature="e#1253#1254#0" expanded="true" />
@@ -99,11 +92,78 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/TreeTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#721#727#0" expanded="true" />
+                <element signature="e#768#774#0" expanded="true" />
+                <element signature="e#1351#1357#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/BinaryHeap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#3626#3627#0" expanded="true" />
+                <element signature="e#3668#3669#0" expanded="true" />
+                <element signature="e#3723#3724#0" expanded="true" />
+                <element signature="e#3765#3766#0" expanded="true" />
+                <element signature="e#3815#3816#0" expanded="true" />
+                <element signature="e#3857#3858#0" expanded="true" />
+                <element signature="e#3904#3905#0" expanded="true" />
+                <element signature="e#3958#3959#0" expanded="true" />
+                <element signature="e#4006#4007#0" expanded="true" />
+                <element signature="e#4061#4062#0" expanded="true" />
+                <element signature="e#4105#4106#0" expanded="true" />
+                <element signature="e#4154#4155#0" expanded="true" />
+                <element signature="e#4194#4195#0" expanded="true" />
+                <element signature="e#4248#4249#0" expanded="true" />
+                <element signature="e#4289#4290#0" expanded="true" />
+                <element signature="e#4344#4345#0" expanded="true" />
+                <element signature="e#4381#4382#0" expanded="true" />
+                <element signature="e#4432#4433#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/PriorityTestQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="27">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Tree.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+              <folding>
+                <element signature="e#4375#4376#0" expanded="true" />
+                <element signature="e#4427#4428#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,6 +237,8 @@
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/ArrayOnHackerRank.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/Tree.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/PriorityTestQueue.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/ds/TreeTraversal.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/ds/BinaryHeap.java" />
       </list>
     </option>
   </component>
@@ -186,7 +248,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="958" />
@@ -251,8 +313,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ds" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,13 +346,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreeNode">
-    <configuration name="Algo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.Algo" />
+  <component name="RunManager" selected="Application.BinaryHeap">
+    <configuration name="ArraysEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ds.ArraysEx" />
       <module name="practice_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algo.*" />
+          <option name="PATTERN" value="ds.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,8 +360,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ds.ArraysEx" />
+    <configuration name="BinaryHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ds.BinaryHeap" />
       <module name="practice_main" />
       <extension name="coverage">
         <pattern>
@@ -325,19 +386,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RatAndMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.RatAndMaze" />
-      <module name="practice_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ds.TreeNode" />
       <module name="practice_main" />
@@ -351,20 +399,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ds.TreeTraversal" />
+      <module name="practice_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ArraysEx" />
-      <item itemvalue="Application.Algo" />
-      <item itemvalue="Application.RatAndMaze" />
       <item itemvalue="Application.HashProblems" />
       <item itemvalue="Application.TreeNode" />
+      <item itemvalue="Application.TreeTraversal" />
+      <item itemvalue="Application.BinaryHeap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryHeap" />
+        <item itemvalue="Application.TreeTraversal" />
         <item itemvalue="Application.TreeNode" />
         <item itemvalue="Application.ArraysEx" />
         <item itemvalue="Application.HashProblems" />
-        <item itemvalue="Application.RatAndMaze" />
-        <item itemvalue="Application.Algo" />
       </list>
     </recent_temporary>
   </component>
@@ -391,10 +452,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="958" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49946523" weight="0.24725275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49946523" visible="true" weight="0.24725275" />
       <window_info id="Structure" order="1" sideWeight="0.5005348" side_tool="true" weight="0.23565324" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -654,21 +715,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="219" column="17" selection-start-line="219" selection-start-column="17" selection-end-line="219" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/PriorityTestQueue.class" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1395">
@@ -929,24 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="126" column="7" lean-forward="true" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
-          <folding>
-            <element signature="e#4375#4376#0" expanded="true" />
-            <element signature="e#4427#4428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1010,9 +1038,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <folding>
+            <element signature="e#4375#4376#0" expanded="true" />
+            <element signature="e#4427#4428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/PriorityTestQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Tree.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
+        <state relative-caret-position="-721">
           <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
           <folding>
             <element signature="e#1253#1254#0" expanded="true" />
@@ -1022,10 +1078,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/PriorityTestQueue.java">
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/TreeTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="326">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#721#727#0" expanded="true" />
+            <element signature="e#768#774#0" expanded="true" />
+            <element signature="e#1351#1357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/BinaryHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#3626#3627#0" expanded="true" />
+            <element signature="e#3668#3669#0" expanded="true" />
+            <element signature="e#3723#3724#0" expanded="true" />
+            <element signature="e#3765#3766#0" expanded="true" />
+            <element signature="e#3815#3816#0" expanded="true" />
+            <element signature="e#3857#3858#0" expanded="true" />
+            <element signature="e#3904#3905#0" expanded="true" />
+            <element signature="e#3958#3959#0" expanded="true" />
+            <element signature="e#4006#4007#0" expanded="true" />
+            <element signature="e#4061#4062#0" expanded="true" />
+            <element signature="e#4105#4106#0" expanded="true" />
+            <element signature="e#4154#4155#0" expanded="true" />
+            <element signature="e#4194#4195#0" expanded="true" />
+            <element signature="e#4248#4249#0" expanded="true" />
+            <element signature="e#4289#4290#0" expanded="true" />
+            <element signature="e#4344#4345#0" expanded="true" />
+            <element signature="e#4381#4382#0" expanded="true" />
+            <element signature="e#4432#4433#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
