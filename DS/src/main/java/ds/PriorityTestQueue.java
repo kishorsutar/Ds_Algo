@@ -9,7 +9,8 @@ public class PriorityTestQueue {
 
 	public static void main(String[] args) {
 
-		System.out.println(findKthSmallest(new int[]{3,2,1,5,6,4}, 6));
+//		System.out.println(findKthSmallest(new int[]{3,2,1,5,6,4}, 6));
+		System.out.println(maxSum(new int[]{-2, 0, 5, -1, 2}, 4));
 	}
 
 
@@ -49,5 +50,33 @@ public class PriorityTestQueue {
 		}
 
 		return true;
+	}
+
+	private static int maxSum(int[] array, int k) {
+
+		PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+		for (int i:
+			 array) {
+			pq.add(i);
+		}
+
+		while (k > 0 && pq.size() > 0) {
+			int temp = pq.poll();
+
+			temp *= -1;
+
+			pq.add(temp);
+			k--;
+		}
+
+		int sum = 0;
+		for (int s:
+			 pq) {
+			sum += s;
+		}
+
+		return sum;
+
 	}
 }
