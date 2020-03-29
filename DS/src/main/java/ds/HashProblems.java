@@ -1,6 +1,8 @@
 package ds;
 
 
+import com.sun.tools.javac.util.Pair;
+
 import java.util.*;
 
 public class HashProblems {
@@ -103,5 +105,36 @@ public class HashProblems {
         }
 
         return indices;
+    }
+
+
+    public ArrayList<Integer> equal(ArrayList<Integer> A) {
+        ArrayList<Integer> result = new ArrayList<>();
+        HashMap<Integer, Pair<Integer, Integer>> map = new HashMap<>();
+
+        int n = A.size();
+
+        for (int i = 0; i < n; i++) {
+            for(int j = i+1; j < n; j++) {
+
+                int sum = A.get(i) + A.get(j);
+                if(!map.containsKey(sum)) {
+                    map.put(sum, new Pair<>(i, j));
+                } else {
+                    Pair<Integer, Integer> tuple = map.get(sum);
+
+                    result.add(tuple.fst);
+                    result.add(tuple.snd);
+                    result.add(i);
+                    result.add(j);
+
+                }
+            }
+
+        }
+
+
+
+        return result;
     }
 }

@@ -107,7 +107,6 @@ public class Strings {
             }
         }
 
-
         return set.size() == 1;
 
     }
@@ -237,6 +236,7 @@ public class Strings {
             i--; j--;
         }*/
 
+        result.substring(1, 3);
         char[] buf = new char[4];
 
         for (char aBuf : buf) {
@@ -316,6 +316,7 @@ public class Strings {
                     offset++;
                 }
             }
+
 
             System.out.println("result: " + offset);
             return offset;
