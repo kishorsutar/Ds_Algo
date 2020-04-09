@@ -6,6 +6,7 @@ import java.util.*;
 
 public class Strings {
     public static void main(String[] args) {
+
 //System.out.println(isValid("(])"));
 //        isValid("0");
 //        System.out.println(multiply("9999999999", "2"));
@@ -316,7 +317,6 @@ public class Strings {
                     offset++;
                 }
             }
-
 
             System.out.println("result: " + offset);
             return offset;

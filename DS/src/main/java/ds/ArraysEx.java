@@ -49,10 +49,11 @@ public class ArraysEx {
         }));*/
 
 //      moveZeroes(new int[]{1,0,3,0,12});
-int[] t = new int[] {9, 1, 4, 7, 6, 5};
+int[] t = new int[] {0, -1, 5, 2, 11, 7};
 //        System.out.println(trap(new int[] {0,1,0,2,1,0,1,3,2,1,2,1}));
 //        new ArrayOnHackerRank().rotateLeft(t, 3);
-        new ArrayOnHackerRank().arrayList();
+//        new ArrayOnHackerRank().arrayList();
+        System.out.println(twoNumberSum(t, 10));
 
     }
 
@@ -411,5 +412,20 @@ int[] t = new int[] {9, 1, 4, 7, 6, 5};
 
         return result;
 
+    }
+
+    public static int[] twoNumberSum(int[] array, int targetSum) {
+        // Write your code here.
+        Set<Integer> set = new HashSet<>();
+
+        for (int num: array) {
+            int currentMatch = targetSum - num;
+            if (set.contains(currentMatch)) {
+                return new int[] {currentMatch, num};
+            } else {
+                set.add(num);
+            }
+        }
+        return new int[0];
     }
 }
