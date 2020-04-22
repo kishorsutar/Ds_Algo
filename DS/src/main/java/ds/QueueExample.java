@@ -6,6 +6,7 @@ public class QueueExample {
 
     public void exQueue() {
         Queue<String> tes = new LinkedList<>();
+        Queue<Integer> list = new LinkedList<>();
         Queue<String> pQueue = new PriorityQueue<>();
         pQueue.isEmpty();
 //pQueue.get
@@ -53,10 +54,10 @@ public class QueueExample {
     void levelOrderTraversal(BinaryTreeNode root) {
         if (root == null) return;
         BinaryTreeNode temp;
-        Queue queue = new PriorityQueue();
+        Queue<BinaryTreeNode> queue = new PriorityQueue<>();
         queue.add(root);
         while (!queue.isEmpty()) {
-            temp = (BinaryTreeNode) queue.poll();
+            temp = queue.poll();
             System.out.println(temp);
             if (temp.getLeft() != null) {
                 queue.add(temp.getLeft());
@@ -66,8 +67,6 @@ public class QueueExample {
             }
 
         }
-
-        queue.clear();
     }
 
 }
