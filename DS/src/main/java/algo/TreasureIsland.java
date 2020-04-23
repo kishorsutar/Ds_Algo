@@ -5,18 +5,22 @@ import java.util.*;
 public class TreasureIsland {
 
     public static void main(String[] args) {
-        char[][] grid = {{'O', 'O', 'O', '0'},
+        char[][] gried = {{'O', 'O', 'O', '0'},
                 {'D', 'O', 'D', 'O'},
                 {'O', 'O', 'O', 'O'},
                 {'X', 'D', 'D', '0'}};
-        System.out.println(findTreasureIsland(grid));
+        int[][] grid = new int[][] {{0, 1, 1, 0, 1},
+                {0, 1, 0, 1, 0},
+                {0, 0, 0, 0, 1},
+                {0, 1, 0, 0, 0}};
+
+        System.out.println(findTreasureIsland(gried));
     }
 
     static int findTreasureIsland(char[][] grid) {
 
         int steps = 0;
         if (grid.length == 0) return steps;
-
         Queue<Point> queue = new LinkedList<>();
         boolean[][] visited = new boolean[grid.length][grid[0].length];
         queue.add(new Point(0, 0));
