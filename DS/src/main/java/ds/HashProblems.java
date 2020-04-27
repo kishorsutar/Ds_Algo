@@ -11,8 +11,9 @@ public class HashProblems {
 
 //        List<String> list = new ArrayList<>(Arrays.asList("aaa", "aaa", "aaa"));
 //                System.out.println(hashProblems.findSubstring("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", list));
-                List<String> list = new ArrayList<>(Arrays.asList("cat", "ate", "bat"));
-                System.out.println(hashProblems.findSubstring("catbatatecatatebat", list));
+//                List<String> list = new ArrayList<>(Arrays.asList("cat", "ate", "bat"));
+//                System.out.println(hashProblems.findSubstring("catbatatecatatebat", list));
+        checkTreeMap();
     }
 
     private HashMap<Integer, String> getIndexOfString(String input, HashSet<String> stringSet) {
@@ -100,9 +101,22 @@ public class HashProblems {
 
             if (targetMap.isEmpty())
                 indices.add(i);
+            TreeMap<String, Integer> map = new TreeMap<>();
+            String floor = map.floorKey('r' + "~");
         }
 
+
         return indices;
+    }
+
+    public static void checkTreeMap() {
+        TreeMap<String, Integer> map = new TreeMap<String, Integer>();
+
+        map.put("xyz", 99999);
+        map.put("bad", 1111);
+
+        System.out.println("A" + map.ceilingKey("a"));
+        System.out.println("B" + map.floorKey("x" + "~"));
     }
 
 
