@@ -10,7 +10,8 @@ public class DepthFirstSearch {
         int from;
         int to;
         int weight;
-        public Edge (int from, int to, int weight) {
+
+        public Edge(int from, int to, int weight) {
             this.from = from;
             this.to = to;
             this.weight = weight;
@@ -34,11 +35,14 @@ public class DepthFirstSearch {
         addDirectedEdge(2, new Edge(2, 4, 4), graph);
         addDirectedEdge(3, new Edge(3, 1, 4), graph);
 
-        System.out.println("Result" + dfs(graph, 5, 0)); // no of nodes and starting node
+        System.out.println("Result " + dfs(graph, 5, 0)); // no of nodes and starting node
+        System.out.println("Result Recursive " + dfsRecursive(0, new boolean[5], graph)); // no of nodes and starting node
+
     }
 
-    /** Gives total number of nodes in the graph using depth first search
-     *   this is adjacency list method
+    /**
+     * Gives total number of nodes in the graph using depth first search
+     * this is adjacency list method
      */
     static int dfs(Map<Integer, List<Edge>> graph, int n, int start) {
 
@@ -67,6 +71,24 @@ public class DepthFirstSearch {
         }
 
         return count;
+    }
+
+    static int dfsRecursive(int at, boolean[] visited, Map<Integer, List<Edge>> graph) {
+
+
+        if (visited[at]) return 0;
+
+        visited[at] = true;
+        int count = 0;
+
+        List<Edge> list = graph.get(at);
+        if (list != null) {
+            for (Edge edge : list) {
+                count += dfsRecursive(edge.to, visited, graph);
+            }
+        }
+        return count;
+
     }
 
 
