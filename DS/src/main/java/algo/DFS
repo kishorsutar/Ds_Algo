@@ -1,0 +1,17 @@
+
+/**
+* This class implements dfs in various data structures
+*/
+class Solution {
+  public void dfsOnTree() {
+    
+  }
+  
+  public void dfsOnGraph() {
+  
+  }
+  
+  public void dfsOnArrayList() {
+  
+  }
+}
