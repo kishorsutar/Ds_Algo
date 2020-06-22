@@ -11,7 +11,7 @@ public class LoadBalancer {
         if (arr.length < 5) return false;
 
         int totalSum = 0;
-        for (int i: arr) {
+        for (int i : arr) {
             totalSum += i;
         }
 
@@ -27,8 +27,6 @@ public class LoadBalancer {
             leftIndex++;
             rightIndex--;
         }
-
         return false;
-
     }
 }

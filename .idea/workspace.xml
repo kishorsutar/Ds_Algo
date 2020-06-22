@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e147e34-8601-4525-839d-2fc475311df1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DS/src/main/java/algo/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/algo/DepthFirstSearch.java" afterDir="false" />
+    <list default="true" id="6e147e34-8601-4525-839d-2fc475311df1" name="Default Changelist" comment="Updated string files">
+      <change afterPath="$PROJECT_DIR$/DS/src/main/java/dp/RodCutting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS/out/production/classes/ds/arraystring/LoadBalancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/DS/out/production/classes/ds/arraystring/LoadBalancer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS/src/main/java/ds/arraystring/LoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/ds/arraystring/LoadBalancer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/DS/.gradle/" />
@@ -50,24 +55,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/arraystring/SuggestedProducts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/dp/OptimalUtilisation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="8" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/arraystring/ReorderLogFiels.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -85,24 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/DepthFirstSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
-              <folding>
-                <element signature="e#751#772#0" expanded="true" />
-                <element signature="e#1402#1411#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alogs_prac/Sorting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="1320">
+              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -110,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/MoviesOnFlight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            <state relative-caret-position="242">
+              <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -119,8 +93,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/arraystring/LoadBalancer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="-23">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/DFS">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/dp/RodCutting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -128,7 +141,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14916">
+            <state relative-caret-position="842">
               <caret line="728" column="13" selection-start-line="728" selection-start-column="13" selection-end-line="728" selection-end-column="13" />
               <folding>
                 <element signature="e#25598#25599#0" expanded="true" />
@@ -166,13 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DS/src/main/java/DS.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/SinglyLinkedListNode.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/SinglyLinkedList.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/algo/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/algo/StringContainsAllLetters.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/math/UniquePath.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/math/ExcelNumbers.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/QuickSort.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/TrieImplement.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/SinglyLinkedList.java" />
@@ -210,13 +216,20 @@
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/dp/MaxSumInSequence.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/arraystring/SuggestedProducts.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/HashProblems.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/ds/arraystring/LoadBalancer.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/dp/OptimalUtilisation.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/arraystring/ReorderLogFiels.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/MoviesOnFlight.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/VersionNumber.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/OptimalUtilisation.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/DepthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/ds/arraystring/LoadBalancer.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/algo/DFS" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjecencyUnweightedMatrix.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjecancyUnweightedMatrix.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/dp/RodCutting.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedMatrix.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java" />
       </list>
     </option>
   </component>
@@ -237,8 +250,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,6 +262,11 @@
             <path>
               <item name="Ds_algo_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ds_algo_java" type="462c0819:PsiDirectoryNode" />
+              <item name="Alogs_prac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ds_algo_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ds_algo_java" type="462c0819:PsiDirectoryNode" />
               <item name="DS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -279,7 +297,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,6 +316,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="graph" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -310,13 +333,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DepthFirstSearch">
-    <configuration name="DepthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.DepthFirstSearch" />
+  <component name="RunManager" selected="Application.AdjacencyWeightedGraph">
+    <configuration name="AdjacencyUnweightedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.AdjacencyUnweightedGraph" />
       <module name="practice_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algo.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,8 +347,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoviesOnFlight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.MoviesOnFlight" />
+    <configuration name="AdjacencyWeightedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.AdjacencyWeightedGraph" />
+      <module name="practice_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.DepthFirstSearch" />
       <module name="practice_main" />
       <extension name="coverage">
         <pattern>
@@ -350,19 +386,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReorderLogFiels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ds.arraystring.ReorderLogFiels" />
-      <module name="practice_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ds.arraystring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VersionNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algo.VersionNumber" />
       <module name="practice_main" />
@@ -377,19 +400,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReorderLogFiels" />
-      <item itemvalue="Application.MoviesOnFlight" />
       <item itemvalue="Application.VersionNumber" />
       <item itemvalue="Application.OptimalUtilisation" />
       <item itemvalue="Application.DepthFirstSearch" />
+      <item itemvalue="Application.AdjacencyUnweightedGraph" />
+      <item itemvalue="Application.AdjacencyWeightedGraph" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdjacencyWeightedGraph" />
+        <item itemvalue="Application.AdjacencyUnweightedGraph" />
         <item itemvalue="Application.DepthFirstSearch" />
         <item itemvalue="Application.OptimalUtilisation" />
         <item itemvalue="Application.VersionNumber" />
-        <item itemvalue="Application.MoviesOnFlight" />
-        <item itemvalue="Application.ReorderLogFiels" />
       </list>
     </recent_temporary>
   </component>
@@ -427,25 +450,25 @@
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49946523" visible="true" weight="0.26556778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.27811736" />
       <window_info id="Structure" order="1" sideWeight="0.5005348" side_tool="true" weight="0.23565324" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5005348" side_tool="true" weight="0.23565324" />
+      <window_info id="Favorites" order="6" sideWeight="0.5016077" side_tool="true" weight="0.27811736" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.3379679" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.3376206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498779" weight="0.33368984" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498779" weight="0.33333334" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501221" side_tool="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.498779" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.498779" weight="0.3290461" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32959184" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32834226" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3279743" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4991274" weight="0.24969475" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -672,13 +695,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DS/src/main/java/algo/DepthFirstSearch.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DS/src/main/java/algo/DepthFirstSearch.java</url>
-          <line>82</line>
+          <line>84</line>
           <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
@@ -739,43 +756,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="355" column="66" selection-start-line="355" selection-start-column="66" selection-end-line="355" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/ArrayOnHackerRank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/TreeTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#721#727#0" expanded="true" />
-            <element signature="e#768#774#0" expanded="true" />
-            <element signature="e#1351#1357#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home!/jdk.internal.vm.compiler/org/graalvm/compiler/graph/Graph.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Graphs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1106,6 +1086,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Alogs_prac/Sorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/arraystring/SuggestedProducts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -1127,38 +1114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alogs_prac/Sorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/MoviesOnFlight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/arraystring/LoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14916">
-          <caret line="728" column="13" selection-start-line="728" selection-start-column="13" selection-end-line="728" selection-end-column="13" />
-          <folding>
-            <element signature="e#25598#25599#0" expanded="true" />
-            <element signature="e#25650#25651#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/VersionNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -1168,12 +1123,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/DepthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        <state relative-caret-position="1320">
+          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/MoviesOnFlight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/DFS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="842">
+          <caret line="728" column="13" selection-start-line="728" selection-start-column="13" selection-end-line="728" selection-end-column="13" />
           <folding>
-            <element signature="e#751#772#0" expanded="true" />
-            <element signature="e#1402#1411#0" expanded="true" />
+            <element signature="e#25598#25599#0" expanded="true" />
+            <element signature="e#25650#25651#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/dp/RodCutting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/arraystring/LoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
         </state>
       </provider>
     </entry>
