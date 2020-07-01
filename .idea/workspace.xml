@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e147e34-8601-4525-839d-2fc475311df1" name="Default Changelist" comment="Updated string files">
-      <change afterPath="$PROJECT_DIR$/DS/src/main/java/dp/RodCutting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java" afterDir="false" />
+    <list default="true" id="6e147e34-8601-4525-839d-2fc475311df1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS/src/main/java/graph/Kruskals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS/src/main/java/graph/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS/src/main/java/math/StirngSOl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DS/out/production/classes/ds/arraystring/LoadBalancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/DS/out/production/classes/ds/arraystring/LoadBalancer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DS/src/main/java/ds/arraystring/LoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/ds/arraystring/LoadBalancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/DS/.gradle/" />
@@ -55,46 +56,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/arraystring/ReorderLogFiels.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/VersionNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/DepthFirstSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/MoviesOnFlight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/arraystring/LoadBalancer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="242">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -111,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+            <state relative-caret-position="1012">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,11 +85,49 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1364">
+              <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/UnionFind.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/math/StirngSOl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/Kruskals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+            <state relative-caret-position="1122">
+              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -141,7 +144,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
+            <state relative-caret-position="14916">
               <caret line="728" column="13" selection-start-line="728" selection-start-column="13" selection-end-line="728" selection-end-column="13" />
               <folding>
                 <element signature="e#25598#25599#0" expanded="true" />
@@ -179,12 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DS/src/main/java/algo/QuickSort.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/ds/TrieImplement.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/ds/SinglyLinkedList.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/ds/DS.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/algo/DynamicProgramming.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/algo/CountOnesInNumber.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/Mathamatics.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/DynamicArray.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/MaximumSubArray.java" />
@@ -228,8 +225,14 @@
         <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjecancyUnweightedMatrix.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/dp/RodCutting.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedMatrix.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjencenyList.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacenyList.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyList.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/graph/UnionFind.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/graph/Kruskals.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/math/StirngSOl.java" />
       </list>
     </option>
   </component>
@@ -239,8 +242,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="413" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
@@ -250,7 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -269,40 +271,11 @@
               <item name="Ds_algo_java" type="462c0819:PsiDirectoryNode" />
               <item name="DS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="Ds_algo_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ds_algo_java" type="462c0819:PsiDirectoryNode" />
-              <item name="DS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ds_algo_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ds_algo_java" type="462c0819:PsiDirectoryNode" />
-              <item name="DS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ds_algo_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ds_algo_java" type="462c0819:PsiDirectoryNode" />
-              <item name="DS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ds_algo_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ds_algo_java" type="462c0819:PsiDirectoryNode" />
-              <item name="DS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,6 +307,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.AdjacencyWeightedGraph">
+    <configuration name="AdjacencyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.AdjacencyList" />
+      <module name="practice_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdjacencyUnweightedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.AdjacencyUnweightedGraph" />
       <module name="practice_main" />
@@ -360,12 +346,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.DepthFirstSearch" />
+    <configuration name="Kruskals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.Kruskals" />
       <module name="practice_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algo.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,25 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptimalUtilisation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.OptimalUtilisation" />
+    <configuration name="StirngSOl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.StirngSOl" />
       <module name="practice_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VersionNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.VersionNumber" />
-      <module name="practice_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algo.*" />
+          <option name="PATTERN" value="math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -400,19 +373,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.VersionNumber" />
-      <item itemvalue="Application.OptimalUtilisation" />
-      <item itemvalue="Application.DepthFirstSearch" />
       <item itemvalue="Application.AdjacencyUnweightedGraph" />
       <item itemvalue="Application.AdjacencyWeightedGraph" />
+      <item itemvalue="Application.AdjacencyList" />
+      <item itemvalue="Application.Kruskals" />
+      <item itemvalue="Application.StirngSOl" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AdjacencyWeightedGraph" />
+        <item itemvalue="Application.StirngSOl" />
+        <item itemvalue="Application.Kruskals" />
+        <item itemvalue="Application.AdjacencyList" />
         <item itemvalue="Application.AdjacencyUnweightedGraph" />
-        <item itemvalue="Application.DepthFirstSearch" />
-        <item itemvalue="Application.OptimalUtilisation" />
-        <item itemvalue="Application.VersionNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585504873115</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Graph Data structure implementation">
+      <created>1592861240998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592861240998</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -447,10 +427,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.27811736" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.28728607" />
       <window_info id="Structure" order="1" sideWeight="0.5005348" side_tool="true" weight="0.23565324" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -459,8 +438,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5016077" side_tool="true" weight="0.27811736" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.3376206" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.55841374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
@@ -482,25 +461,25 @@
       <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49946523" visible="true" weight="0.25335777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.27811736" />
       <window_info id="Structure" order="1" sideWeight="0.5005348" side_tool="true" weight="0.23565324" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5005348" side_tool="true" weight="0.23565324" />
+      <window_info id="Favorites" order="6" sideWeight="0.5016077" side_tool="true" weight="0.27811736" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3379679" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.3376206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993895" weight="0.33368984" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50061053" side_tool="true" weight="0.33368984" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498779" weight="0.33333334" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501221" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.498779" weight="0.3290461" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32959184" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32834226" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3279743" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4991274" weight="0.24969475" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -556,7 +535,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated string files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated string files" />
+    <MESSAGE value="Graph Data structure implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph Data structure implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -709,6 +689,11 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>str.charAt(i)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>aArray.length</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -748,51 +733,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>strList.get(i)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Graphs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2137">
-          <caret line="203" column="17" selection-start-line="203" selection-start-column="17" selection-end-line="203" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="358" column="25" selection-start-line="358" selection-start-column="25" selection-end-line="358" selection-end-column="25" />
-          <folding>
-            <element signature="e#51932#51933#0" expanded="true" />
-            <element signature="e#51971#51972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/LexicoGraphical.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -815,13 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/jdk.compiler/com/sun/tools/javac/util/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1135,6 +1071,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/jdk.compiler/com/sun/tools/javac/util/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/arraystring/LoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DS/src/main/java/algo/DFS">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1142,14 +1092,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="728" column="13" selection-start-line="728" selection-start-column="13" selection-end-line="728" selection-end-column="13" />
+        <state relative-caret-position="1012">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
           <folding>
-            <element signature="e#25598#25599#0" expanded="true" />
-            <element signature="e#25650#25651#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/UnionFind.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/Kruskals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1160,27 +1139,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/arraystring/LoadBalancer.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+        <state relative-caret-position="14916">
+          <caret line="728" column="13" selection-start-line="728" selection-start-column="13" selection-end-line="728" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#25598#25599#0" expanded="true" />
+            <element signature="e#25650#25651#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java">
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/math/StirngSOl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        <state relative-caret-position="490">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
         </state>
       </provider>
     </entry>

@@ -51,6 +51,7 @@ public class AdjacencyWeightedGraph {
         graph.accept(scanner);
         graph.display();
         graph.bfsTrav(0);
+        scanner.close();
     }
 
 
