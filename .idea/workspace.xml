@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e147e34-8601-4525-839d-2fc475311df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DS/src/main/java/dp/LongestSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS/src/main/java/ds/arraystring/MaxSpan.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/ds/arraystring/MaxSpan.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/DS/.gradle/" />
@@ -123,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/arraystring/MaxSpan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="491">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -179,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DS/src/main/java/ds/DynamicArray.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/MaximumSubArray.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/Algo.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/algo/RatAndMaze.java" />
@@ -230,6 +228,7 @@
         <option value="$PROJECT_DIR$/DS/src/main/java/math/StirngSOl.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/dp/LongestSubsequence.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/ds/arraystring/MaxSpan.java" />
       </list>
     </option>
   </component>
@@ -458,7 +457,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593637871105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Longest sub sequence problem">
+      <created>1595367874826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595367874826</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Max span problem">
+      <created>1595367902260</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595367902260</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -474,7 +487,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.29462102" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.29462102" />
       <window_info id="Structure" order="1" sideWeight="0.5005348" side_tool="true" weight="0.23565324" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -488,9 +501,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498779" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.498779" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501221" side_tool="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.498779" weight="0.3290461" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.498779" weight="0.32822084" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3279743" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -582,7 +595,9 @@
     <MESSAGE value="Updated string files" />
     <MESSAGE value="Graph Data structure implementation" />
     <MESSAGE value="Graph Traversal problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph Traversal problems" />
+    <MESSAGE value="Longest sub sequence problem" />
+    <MESSAGE value="Max span problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Max span problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1200,8 +1215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/arraystring/MaxSpan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="491">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
         </state>
       </provider>
     </entry>
