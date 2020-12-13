@@ -54,7 +54,7 @@ public class AdjacencyUnweightedGraph {
     private void dfsSpanningTree(int start) {
         boolean[] visited = new boolean[vertCount];
         Stack<Integer> stack = new Stack<>();
-        System.out.println("DFS Spanning Tree");
+        System.out.println("DFS Spanning tree");
 
         stack.push(start);
         visited[start] = true;

@@ -15,7 +15,7 @@ public class BinarySearchTree {
            tree.root.left.right = new Node(4);
            tree.root.left.right.right = new Node(5);
            tree.root.left.right.right.right = new Node(6);
-           System.out.println("Following are nodes in top view of Binary Tree");
+           System.out.println("Following are nodes in top view of Binary tree");
            tree.TopView(tree.root);
   }
 
