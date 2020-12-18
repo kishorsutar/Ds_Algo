@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e147e34-8601-4525-839d-2fc475311df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DS/src/main/java/tree/SumOfLeafNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS/src/main/java/tree/BinaryTreeProblems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DS/src/main/java/algo/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/algo/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS/src/main/java/tree/SumOfLeafNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS/src/main/java/tree/TreeProblems.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/DS/.gradle/" />
@@ -52,20 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/PQ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1298">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/tree/SumOfLeafNodes.java">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/tree/TreeProblems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="292">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#446#447#0" expanded="true" />
@@ -78,22 +69,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Comparator.java">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Graphs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9614">
-              <caret line="469" column="5" selection-start-line="469" selection-start-column="5" selection-end-line="469" selection-end-column="5" />
+            <state relative-caret-position="88">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyList.java">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
-              <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-713">
+              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/tree/BinaryTreeProblems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -101,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="106">
               <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,10 +108,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java">
+        <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1892">
-              <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+            <state relative-caret-position="295">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,9 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DS/src/main/java/ds/ArraysEx.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/algo/Nester.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/ds/GroupStrings.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/Strings.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/StringToRoman.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/MaxContinuesSubArraySum.java" />
@@ -221,7 +220,6 @@
         <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedMatrix.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjencenyList.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacenyList.java" />
-        <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyList.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/graph/UnionFind.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/graph/Kruskals.java" />
@@ -240,6 +238,10 @@
         <option value="$PROJECT_DIR$/DS/src/main/java/ds/PQ.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/Tree/SumOfLeafNodes.java" />
         <option value="$PROJECT_DIR$/DS/src/main/java/tree/SumOfLeafNodes.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/tree/HeightOfTree.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/tree/BinaryTreeProblems.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyList.java" />
+        <option value="$PROJECT_DIR$/DS/src/main/java/tree/TreeProblems.java" />
       </list>
     </option>
   </component>
@@ -249,11 +251,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1159" />
-    <option name="y" value="-1417" />
-    <option name="width" value="2560" />
-    <option name="height" value="1417" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="413" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -306,16 +307,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ds_algo_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ds_algo_java" type="462c0819:PsiDirectoryNode" />
-              <item name="DS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ds_algo_java" type="b2602c69:ProjectViewProjectNode" />
@@ -531,7 +523,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607667681921</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Graph structure">
+      <created>1607849160472</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607849160473</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Sum of leaf node problem">
+      <created>1607849187553</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607849187553</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -544,9 +550,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1159" y="-1417" width="2560" height="1417" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.20508744" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.31540343" />
       <window_info id="Structure" order="1" sideWeight="0.5005348" side_tool="true" weight="0.23565324" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -560,9 +566,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498779" weight="0.33333334" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498779" weight="0.4726688" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501221" side_tool="true" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.498779" visible="true" weight="0.32728648" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.498779" visible="true" weight="0.32690248" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32690248" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -662,7 +668,9 @@
     <MESSAGE value="Maximum sliding window problem" />
     <MESSAGE value="Dungeon And Dragons finding a shortest path BFS" />
     <MESSAGE value="Candy Crush" />
-    <option name="LAST_COMMIT_MESSAGE" value="Candy Crush" />
+    <MESSAGE value="Graph structure" />
+    <MESSAGE value="Sum of leaf node problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sum of leaf node problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -886,31 +894,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/SinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2300">
-          <caret line="181" column="11" selection-start-line="181" selection-start-column="11" selection-end-line="181" selection-end-column="11" />
-          <folding>
-            <element signature="e#6444#6445#0" expanded="true" />
-            <element signature="e#6485#6486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1234">
-          <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/QueueExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1240,26 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyWeightedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1892">
@@ -1301,10 +1264,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DS/src/main/java/tree/SumOfLeafNodes.java">
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyUnweightedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="106">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/tree/BinaryTreeProblems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/ds/Graphs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/graph/AdjacencyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS/src/main/java/tree/TreeProblems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#446#447#0" expanded="true" />

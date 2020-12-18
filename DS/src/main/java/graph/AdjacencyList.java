@@ -1,11 +1,13 @@
 package graph;
 
+import tree.TreeProblems;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AdjacencyList {
 
-    ArrayList<Edge>[] edges;
+    public ArrayList<Edge>[] edges;
 
     public AdjacencyList(int vCount) {
         edges = new ArrayList[vCount];
@@ -14,10 +16,15 @@ public class AdjacencyList {
         }
     }
 
-    static class Edge {
-        int src, dst, weight;
+    // Supporting method to solve rooting a tree problem
+    public ArrayList<Edge> getNeighbours(int edgeValue) {
+        return edges[0];
+    }
 
-       public Edge(int s, int d, int w) {
+    public static class Edge {
+        public int src, dst, weight;
+
+        public Edge(int s, int d, int w) {
             src = s;
             dst = d;
             weight = w;
@@ -50,7 +57,7 @@ public class AdjacencyList {
     public void display() {
         for (int i = 0; i < edges.length; i++) {
             System.out.println("V" + "\t" + i);
-            for (Edge edge: edges[i]) {
+            for (Edge edge : edges[i]) {
                 System.out.println("Edges --" + edge);
             }
             System.out.println();
